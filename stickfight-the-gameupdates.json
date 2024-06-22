@@ -1,4 +1,3 @@
-[
     {
         "UpdateStageName": "Download Server files",
         "UpdateSourcePlatform": "Linux",
@@ -6,6 +5,17 @@
         "UpdateSourceData": "https://github.com/darkace1998/StickFightDedicatedSrv/archive/main.zip",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    },
+    {
+        "UpdateStageName": "Create-sym-go",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateSymlink",
+        "UpdateSourceData": "/AMP/stickfight-the-game/serverfiles/StickFightDedicatedSrv-main/go",
+        "UpdateSourceArgs": "/bin/go",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "OneShot": true
     }
