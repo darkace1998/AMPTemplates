@@ -1,0 +1,12 @@
+[
+    {
+        "UpdateStageName": "Download Server files",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://codeload.github.com/darkace1998/StickFightDedicatedSrv/zip/refs/heads/dev",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    }
+]

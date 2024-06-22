@@ -1,0 +1,60 @@
+[
+    {
+        "DisplayName": "Loging Level",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "loging,level",
+        "FieldName": "-verbosity",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "-verbosity",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "Placeholder": "",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": true,
+        "EnumValues": {
+            "Normal": "0",
+            "Debug": "1",
+            "Trace": "2"
+        }
+    },
+    {
+        "DisplayName": "logPlayerUpdate",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "logplayerupdate",
+        "FieldName": "-logPlayerUpdate",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "-logPlayerUpdate",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "Placeholder": "",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": true,
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "maxLobbies",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "maxlobbies",
+        "FieldName": "-maxLobbies",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "-maxLobbies",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "100",
+        "Placeholder": "100",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": true,
+        "EnumValues": {}
+    }
+]
