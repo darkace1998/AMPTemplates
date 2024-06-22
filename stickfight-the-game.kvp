@@ -32,7 +32,7 @@ App.AdminPortRef=RemoteAdminPort
 App.UniversalSleepApplicationUDPPortRef=GamePort1
 App.PrimaryApplicationPortRef=GamePort1
 App.UniversalSleepSteamQueryPortRef=SteamQueryPort
-App.MaxUsers=8
+App.MaxUsers=100
 App.UseRandomAdminPassword=True
 App.RemoteAdminPassword=
 App.AdminLoginTransform=None
@@ -74,7 +74,7 @@ Meta.MetaConfigManifest=stickfight-the-gamemetaconfig.json
 Meta.ConfigRoot=stickfight-the-game.kvp
 App.RootDir=./stickfight-the-game/
 Meta.DisplayImageSource=url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/674940/header.jpg?t=1702991556
-App.BaseDirectory=./stickfight-the-game/serverfiles/
+App.BaseDirectory=./stickfight-the-game/serverfiles/StickFightDedicatedSrv-main/
 App.WorkingDir=serverfiles
 App.ExecutableWin=serverfiles\
 App.ExecutableLinux=serverfiles/go run ./
