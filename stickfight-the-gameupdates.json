@@ -30,11 +30,5 @@
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": false,
         "OneShot": true
-    },
-    {
-        "UpdateStageName": "SteamCMD Download",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "SteamCMD",
-        "UpdateSourceData": ""
     }
 ]
