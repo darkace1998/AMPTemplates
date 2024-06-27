@@ -25,7 +25,7 @@
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"cp {{$FullBaseDir}}/StickFightDedicatedSrv-main/* {{$FullBaseDir}}/",
+        "UpdateSourceArgs":"-c '\\cp \"{{$FullBaseDir}}StickFightDedicatedSrv-main/\"* \"{{$FullBaseDir}}\"'",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": false,
