@@ -21,11 +21,11 @@
         "OneShot": true
 },
 {
-        "UpdateStageName": "CP-go",
+        "UpdateStageName": "CP-Serverfiles",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "CopyFilePath",
         "UpdateSourceData": "/AMP/stickfight-the-game/serverfiles/",
-        "UpdateSourceArgs": "/AMP/stickfight-the-game/serverfiles/StickFightDedicatedSrv-main/*",
+        "UpdateSourceArgs": "/AMP/stickfight-the-game/serverfiles/StickFightDedicatedSrv-main/",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": false,
