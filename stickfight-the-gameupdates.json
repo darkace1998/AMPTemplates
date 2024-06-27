@@ -10,9 +10,9 @@
         "OneShot": true
     },
     {
-        "UpdateStageName": "CP-go",
+        "UpdateStageName": "SM-go",
         "UpdateSourcePlatform": "All",
-        "UpdateSource": "CopyFilePath",
+        "UpdateSource": "CreateSymlink",
         "UpdateSourceData": "/AMP/stickfight-the-game/serverfiles/go",
         "UpdateSourceArgs": "/bin/go",
         "UnzipUpdateSource": false,
