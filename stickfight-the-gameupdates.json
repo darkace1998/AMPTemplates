@@ -25,7 +25,7 @@
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"mv /AMP/stickfight-the-game/serverfiles/StickFightDedicatedSrv-main/* /AMP/stickfight-the-game/serverfiles/",
+        "UpdateSourceArgs":"cp {{$FullBaseDir}}/StickFightDedicatedSrv-main/* {{$FullBaseDir}}/",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": false,
