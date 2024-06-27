@@ -15,9 +15,9 @@
         "Hidden": false,
         "SkipIfEmpty": true,
         "EnumValues": {
-            "Normal": "0",
-            "Debug": "1",
-            "Trace": "2"
+            "0": "Normal",
+            "1": "Debug",
+            "2": "Trace"
         }
     },
     {
@@ -36,15 +36,15 @@
         "Hidden": false,
         "SkipIfEmpty": true,
         "EnumValues": {
-            "true": "True",
-            "false": "False"
+            "True": "true",
+            "False": "false"
         }
     },
     {
         "DisplayName": "maxLobbies",
         "Category": "Server Settings",
         "Description": "",
-        "Keywords": "maxlobbies",
+        "Keywords": "-maxLobbies",
         "FieldName": "-maxLobbies",
         "InputType": "number",
         "IsFlagArgument": false,
