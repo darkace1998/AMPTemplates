@@ -2,8 +2,8 @@
     {
         "Protocol": "Both",
         "Port": "1337",
-        "Name": "Main Game Port",
-        "Description": "Port used for main game traffic",
-        "Ref": "MainGamePort"
+        "Name": "Game and Mods Port",
+        "Description": "Port for game traffic and client mod downloads",
+        "Ref": "ApplicationPort1"
     }
 ]
