@@ -19,13 +19,13 @@
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": false,
         "OneShot": true
-},
-{
-        "UpdateStageName": "CP-Serverfiles",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "CopyFilePath",
-        "UpdateSourceData": "/AMP/stickfight-the-game/serverfiles/",
-        "UpdateSourceArgs": "/AMP/stickfight-the-game/serverfiles/StickFightDedicatedSrv-main/",
+    },
+    {
+        "UpdateStageName":"CP-Serverfiles",
+        "UpdateSourcePlatform":"Linux",
+        "UpdateSource":"Executable",
+        "UpdateSourceData":"/bin/bash",
+        "UpdateSourceArgs":"mv /AMP/stickfight-the-game/serverfiles/StickFightDedicatedSrv-main/ /AMP/stickfight-the-game/serverfiles/",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": false,
