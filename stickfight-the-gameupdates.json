@@ -13,8 +13,19 @@
         "UpdateStageName": "CP-go",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "CopyFilePath",
-        "UpdateSourceData": "/AMP/stickfight-the-game/serverfiles/StickFightDedicatedSrv-main/go",
+        "UpdateSourceData": "/AMP/stickfight-the-game/serverfiles/go",
         "UpdateSourceArgs": "/bin/go",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": false,
+        "OneShot": true
+    }
+	    {
+        "UpdateStageName": "CP-go",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CopyFilePath",
+        "UpdateSourceData": "/AMP/stickfight-the-game/serverfiles/",
+        "UpdateSourceArgs": "/AMP/stickfight-the-game/serverfiles/StickFightDedicatedSrv-main/*",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": false,
