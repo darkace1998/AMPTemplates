@@ -19,8 +19,8 @@
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": false,
         "OneShot": true
-    }
-	    {
+},
+{
         "UpdateStageName": "CP-go",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "CopyFilePath",
