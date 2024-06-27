@@ -16,7 +16,7 @@
         "UpdateSourceData": "/AMP/stickfight-the-game/serverfiles/go",
         "UpdateSourceArgs": "/bin/go",
         "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
+        "OverwriteExistingFiles": true,
         "DeleteAfterExtract": false,
         "OneShot": true
     },
@@ -27,7 +27,7 @@
         "UpdateSourceData":"/bin/bash",
         "UpdateSourceArgs":"-c '\\mv \"{{$FullBaseDir}}StickFightDedicatedSrv-main/\"* \"{{$FullBaseDir}}\"'",
         "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
+        "OverwriteExistingFiles": true,
         "DeleteAfterExtract": false,
         "OneShot": true
     },
