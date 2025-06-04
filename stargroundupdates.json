@@ -1,3 +1,9 @@
 [
-    {}
+    {
+        "UpdateStageName": "SteamCMD Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "3754950",
+        "UpdateSourceArgs": "3754950"
+    }
 ]
