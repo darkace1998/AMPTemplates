@@ -1,7 +1,8 @@
 [
     {
-        "ConfigFile": "storage/starbound_server.config",
+        "ConfigFile": "win64/settings.ini",
         "AutoMap": true,
-        "ConfigType": "json"
+        "ConfigType": "ini",
+        "ConfigFormat": "{0}={1}"
     }
 ]

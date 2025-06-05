@@ -1,5 +1,13 @@
 [
     {
+        "UpdateStageName": "SteamCMD Components Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "1007",
+        "UpdateSourceArgs": "17520",
+        "UpdateSourceTarget": "{{$FullBaseDir}}"
+    },
+    {
         "UpdateStageName": "SteamCMD Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "None",
