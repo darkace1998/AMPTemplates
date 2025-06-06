@@ -1,0 +1,25 @@
+[
+    {
+        "UpdateStageName": "Win64-Downloading-Ollama",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/658928958/5866182d-80aa-43a8-b95b-f8142411f8d2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250606%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250606T174209Z&X-Amz-Expires=300&X-Amz-Signature=55947220ec937908ed73919415f869f2c056327abc88971dada4867daeed32e6&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dollama-windows-amd64.zip&response-content-type=application%2Foctet-stream",
+        "UpdateSourceTarget": "serverfiles",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "UpdateSourceConditionValue": "",
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Lnx64-Downloading-Ollama",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/658928958/fc0148ce-e98e-4768-9f59-ebf75fabccd2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250606%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250606T175227Z&X-Amz-Expires=300&X-Amz-Signature=e2b9132646427e8679548b663a687766143807ba2f13a4b05b81dac7bc87bbb6&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dollama-linux-amd64.tgz&response-content-type=application%2Foctet-stream",
+        "UpdateSourceTarget": "serverfiles",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]
