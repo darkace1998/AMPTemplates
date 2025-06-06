@@ -4,6 +4,6 @@
         "Port": "11434",
         "Name": "API Port",
         "Description": "Used for API traffic",
-        "Ref": "MainGamePort"
+        "Ref": "GamePort1"
     }
 ]
