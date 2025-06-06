@@ -1,9 +1,9 @@
 {
-	"id": "e4e2d42f-eb10-4b33-9421-34e44b12618f",
+	"id": "e4e2d42f-eb10-4b66-9421-34e44b12618f",
 	"authors": ["DARKACE", "AMP Community"],
 	"origin": "https://github.com/darkace1998/AMPTemplates.git",
 	"url": "https://github.com/darkace1998/AMPTemplates",
 	"imagefile": "",
-	"prefix": "DARKACE",
+	"prefix": "Ollama-DARKACE",
 	"repotype": "AppTemplates"
 }
