@@ -21,5 +21,25 @@
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "OneShot": false
+    },
+    {
+        "UpdateStageName": "Set env-LNX",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "export OLLAMA_HOST=\"0.0.0.0:11434\" OLLAMA_ORIGINS=\"*\"",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    },
+    {
+        "UpdateStageName": "Set env-WIN",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "set OLLAMA_HOST=0.0.0.0:11434 && set OLLAMA_ORIGINS=*",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": true
     }
 ]
