@@ -81,4 +81,4 @@ App.ExecutableLinux=serverfiles/bin/ollama
 App.LinuxCommandLineArgs=
 App.Ports=@IncludeJson[ollamaports.json]
 App.UpdateSources=@IncludeJson[ollamaupdates.json]
-App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
+App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all", "OLLAMA_HOST": "0.0.0.0:11434", "OLLAMA_ORIGINS": "*"}
