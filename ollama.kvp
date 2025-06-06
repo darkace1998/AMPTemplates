@@ -28,6 +28,7 @@ App.ExitFile=app_exit.lck
 App.SupportsLiveSettingsChanges=False
 App.LiveSettingChangeCommandFormat=set {0} "{1}"
 App.ApplicationIPBinding=0.0.0.0
+App.Ports=@IncludeJson[ollamaports.json]
 App.AdminPortRef=RemoteAdminPort
 App.UniversalSleepApplicationUDPPortRef=GamePort1
 App.PrimaryApplicationPortRef=GamePort1
