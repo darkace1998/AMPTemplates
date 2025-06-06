@@ -1,9 +1,9 @@
 [
     {
-        "Protocol": "Both",
+        "Protocol": "TCP",
         "Port": "11434",
-        "Name": "API",
-        "Description": "Port used for main game traffic",
-        "Ref": "API"
+        "Name": "API Port",
+        "Description": "Used for API traffic",
+        "Ref": "MainGamePort"
     }
 ]
