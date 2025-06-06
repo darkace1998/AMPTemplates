@@ -38,7 +38,7 @@
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "Executable",
         "UpdateSourceData": "cmd",
-        "UpdateSourceArgs": "set OLLAMA_HOST=0.0.0.0:11434 && set OLLAMA_ORIGINS=*",
+        "UpdateSourceArgs": "/c \"set OLLAMA_HOST=0.0.0.0:11434 && set OLLAMA_ORIGINS=*\"",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
