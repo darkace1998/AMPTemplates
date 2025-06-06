@@ -27,7 +27,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "export OLLAMA_HOST=\"0.0.0.0:11434\" OLLAMA_ORIGINS=\"*\"",
+        "UpdateSourceArgs": "-c export OLLAMA_HOST=\"0.0.0.0:11434\" OLLAMA_ORIGINS=\"*\"",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
