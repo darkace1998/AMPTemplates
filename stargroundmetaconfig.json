@@ -1,8 +1,1 @@
-[
-    {
-        "ConfigFile": "win64/settings.ini",
-        "AutoMap": true,
-        "ConfigType": "ini",
-        "ConfigFormat": "{0}={1}"
-    }
-]
+[]
