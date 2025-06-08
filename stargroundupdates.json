@@ -1,17 +1,13 @@
 [
     {
-        "UpdateStageName": "SteamCMD Components Download",
+        "UpdateStageName": "Downloading Starground dedicated server",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "1007",
-        "UpdateSourceArgs": "17520",
-        "UpdateSourceTarget": "{{$FullBaseDir}}"
-    },
-    {
-        "UpdateStageName": "SteamCMD Download",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "None",
         "UpdateSourceData": "3754950",
-        "UpdateSourceArgs": "2793380"
+        "UpdateSourceArgs": "2793380",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
     }
 ]
