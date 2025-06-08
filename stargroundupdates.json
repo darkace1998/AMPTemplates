@@ -46,7 +46,7 @@
         "UpdateStageName": "Downloading Starground Depot Linux",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
-        "UpdateSourceData": "./2793380/DepotDownloader",
+        "UpdateSourceData": "./DepotDownloader",
         "UpdateSourceArgs": "-app 3754950 -depot 3754952",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
