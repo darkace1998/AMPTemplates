@@ -5,7 +5,7 @@
         "UpdateSource": "GithubRelease",
         "UpdateSourceData": "DepotDownloader-linux-x64.zip",
         "UpdateSourceArgs": "SteamRE/DepotDownloader",
-        "UnzipUpdateSource": false,
+        "UnzipUpdateSource": true,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "OneShot": true
@@ -16,7 +16,7 @@
         "UpdateSource": "GithubRelease",
         "UpdateSourceData": "DepotDownloader-windows-x64.zip",
         "UpdateSourceArgs": "SteamRE/DepotDownloader",
-        "UnzipUpdateSource": false,
+        "UnzipUpdateSource": true,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "OneShot": true
