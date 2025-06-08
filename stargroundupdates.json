@@ -5,7 +5,7 @@
         "UpdateSource": "GithubRelease",
         "UpdateSourceData": "DepotDownloader-linux-x64.zip",
         "UpdateSourceArgs": "SteamRE/DepotDownloader",
-        "UnzipUpdateSource": true,
+        "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "OneShot": true
@@ -16,7 +16,28 @@
         "UpdateSource": "GithubRelease",
         "UpdateSourceData": "DepotDownloader-windows-x64.zip",
         "UpdateSourceArgs": "SteamRE/DepotDownloader",
-        "UnzipUpdateSource": true,
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    },
+    {
+        "UpdateStageName": "Downloading Starground Depot Windows",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": ".\\DepotDownloader.exe",
+        "UpdateSourceArgs": "-app 3754950 -depot 3754951",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Set EXEC Flag",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "SetExecutableFlag",
+        "UpdateSourceArgs": "DepotDownloader",
+        "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "OneShot": true
@@ -26,17 +47,6 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "./DepotDownloader",
-        "UpdateSourceArgs": "-app 3754950 -depot 3754952",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    },
-    {
-        "UpdateStageName": "Downloading Starground Depot Windows",
-        "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "Executable",
-        "UpdateSourceData": ".\\DepotDownloader.exe",
         "UpdateSourceArgs": "-app 3754950 -depot 3754952",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
