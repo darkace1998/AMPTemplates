@@ -47,7 +47,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"./starground/2793380/DepotDownloader -app 3754950 -depot 3754952 -dir /starground/2793380\"",
+        "UpdateSourceArgs": "-c \"./starground/2793380/DepotDownloader -app 3754950 -depot 3754952 -dir starground/2793380\"",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
