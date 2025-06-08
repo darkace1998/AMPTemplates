@@ -1,12 +1,25 @@
 [
     {
-        "UpdateStageName": "Downloading Starground dedicated server",
-        "UpdateSourcePlatform": "All",
+        "UpdateStageName": "Windows Starground dedicated server",
+        "UpdateSourcePlatform": "Windows",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "3754950",
-        "UpdateSourceArgs": "3754950",
+        "UpdateSourceArgs": "2793380",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
+        "ForceDownloadPlatform": "Windows",
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Linux Starground dedicated server",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "3754950",
+        "UpdateSourceArgs": "2793380",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "ForceDownloadPlatform": "Linux",
         "DeleteAfterExtract": true,
         "OneShot": false
     }
