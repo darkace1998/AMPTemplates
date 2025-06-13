@@ -4,9 +4,9 @@
         "Port": 4433,
         "Offset": 0,
         "Range": 1,
-        "Ref": "gameServerPort",
-        "Name": "Game and Query Port",
-        "Description": "Port for game and query traffic",
+        "Ref": "GamePort",
+        "Name": "Game Port",
+        "Description": "Port for game traffic",
         "ChildPorts": null
     }
 ]
