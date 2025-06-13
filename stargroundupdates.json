@@ -1,63 +1,10 @@
 [
     {
-        "UpdateStageName": "Downloading DepotDownloader Linux",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "GithubRelease",
-        "UpdateSourceData": "DepotDownloader-linux-x64.zip",
-        "UpdateSourceArgs": "SteamRE/DepotDownloader",
-        "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": true
-    },
-    {
-        "UpdateStageName": "Downloading DepotDownloader Windows",
-        "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "GithubRelease",
-        "UpdateSourceData": "DepotDownloader-windows-x64.zip",
-        "UpdateSourceArgs": "SteamRE/DepotDownloader",
-        "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": true
-    },
-    {
-        "UpdateStageName": "Downloading Starground Depot Windows",
-        "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "Executable",
-        "UpdateSourceData": ".\\DepotDownloader.exe",
-        "UpdateSourceArgs": "-app 3754950 -depot 3754951",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    },
-    {
-        "UpdateStageName": "Set EXEC Flag",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "SetExecutableFlag",
-        "UpdateSourceArgs": "2793380/DepotDownloader",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": true
-    },
-    {
-        "UpdateStageName": "Downloading Starground Depot Linux",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "Executable",
-        "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"./starground/2793380/DepotDownloader -app 3754950 -depot 3754952 -dir starground/2793380\"",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    },    
-    {
-        "UpdateStageName": "Set EXEC Flag",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "SetExecutableFlag",
-        "UpdateSourceArgs": "2793380/starground_server.X86_64",
+        "UpdateStageName": "Downloading server Data",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "3754950",
+        "UpdateSourceArgs": "2793380",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
