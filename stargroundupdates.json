@@ -16,4 +16,14 @@
         "UpdateSource": "CreateDirectory",
         "UpdateSourceArgs": "{{$FullBaseDir}}Save"
     },
+    {
+        "UpdateStageName": "generate conf files",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "StartApplication",
+    },
+    {
+        "UpdateStageName": "generate conf files",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": " ShutdownApplication",
+    }
 ]
