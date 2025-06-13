@@ -8,7 +8,8 @@
     "InputType": "text",
     "ParamFieldName": "Network.IP",
     "DefaultValue": "*",
-    "EnumValues": {}
+    "EnumValues": {},
+    "Hidden": true
   },
   {
     "DisplayName": "Server Port",
@@ -17,6 +18,7 @@
     "Keywords": "port,network,server",
     "FieldName": "$GamePort",
     "InputType": "number",
+    "Hidden": true,
     "ParamFieldName": "Network.Port",
     "DefaultValue": 4433,
     "EnumValues": {}
