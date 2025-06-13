@@ -22,6 +22,12 @@
         "UpdateSource": "StartApplication",
     },
     {
+        "UpdateStageName": "Pause Update Stages",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Pause",
+        "UpdateSourceArgs": "3"
+    },
+    {
         "UpdateStageName": "generate conf files",
         "UpdateSourcePlatform": "All",
         "UpdateSource": " ShutdownApplication",
