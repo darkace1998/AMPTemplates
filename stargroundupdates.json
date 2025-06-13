@@ -20,16 +20,5 @@
         "UpdateStageName": "generate conf files",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "StartApplication",
-    },
-    {
-        "UpdateStageName": "Pause Update Stages",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "Pause",
-        "UpdateSourceArgs": "6"
-    },
-    {
-        "UpdateStageName": "generate conf files",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": " ShutdownApplication",
     }
 ]
