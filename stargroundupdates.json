@@ -24,6 +24,11 @@
     {
         "UpdateStageName": "generate conf files",
         "UpdateSourcePlatform": "All",
+        "UpdateSource": " WaitForStartupComplete",
+    },
+    {
+        "UpdateStageName": "generate conf files",
+        "UpdateSourcePlatform": "All",
         "UpdateSource": " ShutdownApplication",
     }
 ]
