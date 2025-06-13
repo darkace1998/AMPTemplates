@@ -71,7 +71,7 @@
     "FieldName": "SavePath",
     "InputType": "text",
     "ParamFieldName": "World.SavePath",
-    "DefaultValue": "",
+    "DefaultValue": "Save/",
     "EnumValues": {}
   },
   {
