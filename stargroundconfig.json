@@ -1,1 +1,23 @@
-[]
+[
+    {
+        "ConfigFile": "settings.ini",
+        "AutoMap": true,
+        "ConfigType": "ini",
+        "ConfigFormat": "{0} = \"{1}\"",
+        "ConfigFormatRegex": "^(?<key>.+?) = \"(?<value>.*?)\"$"
+    },
+    {
+        "ConfigFile": "settings.ini",
+        "AutoMap": true,
+        "ConfigType": "ini",
+        "ConfigFormat": "{0} = {1}",
+        "ConfigFormatRegex": "^(?<key>.+?) = (?<value>[^\"\\{\\}\\n\\r]+)$"
+    },
+    {
+        "ConfigFile": "settings.ini",
+        "AutoMap": true,
+        "ConfigType": "ini",
+        "ConfigFormat": "{0} = {1}",
+        "ConfigFormatRegex": "^(?<key>.+?) = (?<value>\\{[\\s\\S]*\\})$"
+    }
+]
