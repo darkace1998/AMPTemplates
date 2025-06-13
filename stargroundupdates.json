@@ -25,7 +25,7 @@
         "UpdateStageName": "Pause Update Stages",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Pause",
-        "UpdateSourceArgs": "3"
+        "UpdateSourceArgs": "6"
     },
     {
         "UpdateStageName": "generate conf files",
