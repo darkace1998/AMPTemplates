@@ -73,7 +73,7 @@
     "FieldName": "SavePath",
     "InputType": "text",
     "ParamFieldName": "World.SavePath",
-    "DefaultValue": "Save/",
+    "DefaultValue": "{{$FullBaseDir}}Save",
     "EnumValues": {}
   },
   {
