@@ -23,7 +23,7 @@
     },
     {
         "UpdateStageName": "Pause Update Stages",
-        "UpdateSourcePlatform": "Linux",
+        "UpdateSourcePlatform": "All",
         "UpdateSource": "Pause",
         "UpdateSourceArgs": "6"
     },
