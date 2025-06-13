@@ -1,23 +1,121 @@
 [
-    {
-        "ConfigFile": "settings.ini",
-        "AutoMap": true,
-        "ConfigType": "ini",
-        "ConfigFormat": "{0} = \"{1}\"",
-        "ConfigFormatRegex": "^(?<key>.+?) = \"(?<value>.*?)\"$"
-    },
-    {
-        "ConfigFile": "settings.ini",
-        "AutoMap": true,
-        "ConfigType": "ini",
-        "ConfigFormat": "{0} = {1}",
-        "ConfigFormatRegex": "^(?<key>.+?) = (?<value>[^\"\\{\\}\\n\\r]+)$"
-    },
-    {
-        "ConfigFile": "settings.ini",
-        "AutoMap": true,
-        "ConfigType": "ini",
-        "ConfigFormat": "{0} = {1}",
-        "ConfigFormatRegex": "^(?<key>.+?) = (?<value>\\{[\\s\\S]*\\})$"
+  {
+    "DisplayName": "Server IP Binding",
+    "Category": "Network",
+    "Description": "IP address to bind the server to. Use * for all interfaces.",
+    "Keywords": "ip,bind,network,server",
+    "FieldName": "IP",
+    "InputType": "text",
+    "ParamFieldName": "Network.IP",
+    "DefaultValue": "*",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Server Port",
+    "Category": "Network",
+    "Description": "Port number for the server to listen on.",
+    "Keywords": "port,network,server",
+    "FieldName": "Port",
+    "InputType": "number",
+    "ParamFieldName": "Network.Port",
+    "DefaultValue": 4433,
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Require Steam Users",
+    "Category": "Network",
+    "Description": "If enabled, only Steam users may connect.",
+    "Keywords": "steam,require,users,network",
+    "FieldName": "RequireSteamUsers",
+    "InputType": "checkbox",
+    "ParamFieldName": "Network.RequireSteamUsers",
+    "DefaultValue": false,
+    "EnumValues": {
+      "False": false,
+      "True": true
     }
+  },
+  {
+    "DisplayName": "Whitelist Enabled",
+    "Category": "Network",
+    "Description": "If enabled, only whitelisted users may join.",
+    "Keywords": "whitelist,users,network",
+    "FieldName": "Whitelist",
+    "InputType": "checkbox",
+    "ParamFieldName": "Network.Whitelist",
+    "DefaultValue": false,
+    "EnumValues": {
+      "False": false,
+      "True": true
+    }
+  },
+  {
+    "DisplayName": "Cheats Enabled",
+    "Category": "Misc",
+    "Description": "If enabled, cheats are allowed on the server.",
+    "Keywords": "cheats,misc,server",
+    "FieldName": "CheatsEnabled",
+    "InputType": "checkbox",
+    "ParamFieldName": "Misc.CheatsEnabled",
+    "DefaultValue": false,
+    "EnumValues": {
+      "False": false,
+      "True": true
+    }
+  },
+  {
+    "DisplayName": "World Save Path",
+    "Category": "World",
+    "Description": "Path where the world save file is stored.",
+    "Keywords": "world,save,path",
+    "FieldName": "SavePath",
+    "InputType": "text",
+    "ParamFieldName": "World.SavePath",
+    "DefaultValue": "",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "World Generation Seed",
+    "Category": "World",
+    "Description": "Seed value for world generation randomness.",
+    "Keywords": "seed,world,generation",
+    "FieldName": "Seed",
+    "InputType": "text",
+    "ParamFieldName": "World.GenerationSettings.Seed",
+    "DefaultValue": "1345788879",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "World Size",
+    "Category": "World",
+    "Description": "Size of the generated world.",
+    "Keywords": "size,world,generation",
+    "FieldName": "Size",
+    "InputType": "number",
+    "ParamFieldName": "World.GenerationSettings.Size",
+    "DefaultValue": 128,
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Terrain Scale",
+    "Category": "World",
+    "Description": "Scale of terrain features.",
+    "Keywords": "terrain,scale,world",
+    "FieldName": "TerrainScale",
+    "InputType": "number",
+    "ParamFieldName": "World.GenerationSettings.TerrainScale",
+    "DefaultValue": 0.02,
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Water Level",
+    "Category": "World",
+    "Description": "Water level for world generation (0.0 - 1.0).",
+    "Keywords": "water,level,world",
+    "FieldName": "WaterLevel",
+    "InputType": "number",
+    "ParamFieldName": "World.GenerationSettings.WaterLevel",
+    "DefaultValue": 0.5,
+    "EnumValues": {}
+  }
 ]
