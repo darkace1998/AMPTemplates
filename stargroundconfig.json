@@ -15,7 +15,7 @@
     "Category": "Network",
     "Description": "Port number for the server to listen on.",
     "Keywords": "port,network,server",
-    "FieldName": "Port",
+    "FieldName": "$GamePort",
     "InputType": "number",
     "ParamFieldName": "Network.Port",
     "DefaultValue": 4433,
