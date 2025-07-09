@@ -21,53 +21,57 @@
         "UpdateStageName": "Server Download",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "FetchURLFromJQ",
-        "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/minecraft-bedrockdownloadurl.json",
-        "UpdateSourceArgs": "$.Release.Windows",
+        "UpdateSourceData": "https://net-secondary.web.minecraft-services.net/api/v1.0/download/links",
+        "UpdateSourceArgs": "$.result.links[0].downloadUrl",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "UpdateSourceConditionSetting": "ServerStream",
-        "UpdateSourceConditionValue": "release-latest"
+        "UpdateSourceConditionValue": "release-latest",
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Server Download",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURLFromJQ",
-        "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/minecraft-bedrockdownloadurl.json",
-        "UpdateSourceArgs": "$.Release.Linux",
+        "UpdateSourceData": "https://net-secondary.web.minecraft-services.net/api/v1.0/download/links",
+        "UpdateSourceArgs": "$.result.links[1].downloadUrl",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "UpdateSourceConditionSetting": "ServerStream",
-        "UpdateSourceConditionValue": "release-latest"
+        "UpdateSourceConditionValue": "release-latest",
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Server Download",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "FetchURLFromJQ",
-        "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/minecraft-bedrockdownloadurl.json",
-        "UpdateSourceArgs": "$.Preview.Windows",
+        "UpdateSourceData": "https://net-secondary.web.minecraft-services.net/api/v1.0/download/links",
+        "UpdateSourceArgs": "$.result.links[2].downloadUrl",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "UpdateSourceConditionSetting": "ServerStream",
-        "UpdateSourceConditionValue": "preview-latest"
+        "UpdateSourceConditionValue": "preview-latest",
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Server Download",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURLFromJQ",
-        "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/minecraft-bedrockdownloadurl.json",
-        "UpdateSourceArgs": "$.Preview.Linux",
+        "UpdateSourceData": "https://net-secondary.web.minecraft-services.net/api/v1.0/download/links",
+        "UpdateSourceArgs": "$.result.links[3].downloadUrl",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "UpdateSourceConditionSetting": "ServerStream",
-        "UpdateSourceConditionValue": "preview-latest"
+        "UpdateSourceConditionValue": "preview-latest",
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Server Download",
@@ -79,7 +83,8 @@
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "UpdateSourceConditionSetting": "ServerStream",
-        "UpdateSourceConditionValue": "release-specificversion"
+        "UpdateSourceConditionValue": "release-specificversion",
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Server Download",
@@ -103,7 +108,8 @@
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "UpdateSourceConditionSetting": "ServerStream",
-        "UpdateSourceConditionValue": "preview-specificversion"
+        "UpdateSourceConditionValue": "preview-specificversion",
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Server Download",
@@ -115,13 +121,15 @@
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "UpdateSourceConditionSetting": "ServerStream",
-        "UpdateSourceConditionValue": "preview-specificversion"
+        "UpdateSourceConditionValue": "preview-specificversion",
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Make Server Executable",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "SetExecutableFlag",
-        "UpdateSourceArgs": "{{$FullBaseDir}}bedrock_server"
+        "UpdateSourceArgs": "{{$FullBaseDir}}bedrock_server",
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Allowlist.json Restore",
